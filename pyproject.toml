@@ -1,0 +1,17 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "dudu"
+version = "0.1.0"
+description = "A package to find common elements in a list and print counts of each element and the number of occurrences"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+dudu = "dudu.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
