@@ -10,6 +10,9 @@ You can install the package via `pip` or `poetry`:
 
 ```bash
 pip install git+https://github.com/isura-nimalasiri/dudu.git
+
+poetry add git+https://github.com/isura-nimalasiri/dudu.git
+
 ```
 
 
